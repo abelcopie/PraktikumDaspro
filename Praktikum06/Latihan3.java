@@ -32,6 +32,7 @@ public class Latihan3 {
                 if(ukuran >= 36){
                     if (ukuran <= 40)
                     hargaSepatu = 800000;
+                    System.out.println("Harga yang harus dibayar: " + hargaSepatu);
                 } else {
                     System.out.println("Ukuran sepatu tidak valid");
                 }
@@ -40,6 +41,7 @@ public class Latihan3 {
                 if(ukuran >= 40){
                     if (ukuran <= 44)
                     hargaSepatu = 1200000;
+                    System.out.println("Harga yang harus dibayar: " + hargaSepatu);
                 } else {
                     System.out.println("Ukuran sepatu tidak valid");
                 }
@@ -53,6 +55,7 @@ public class Latihan3 {
                 if(ukuran >= 36){
                     if (ukuran <= 41)
                     hargaSepatu = 1000000;
+                    System.out.println("Harga yang harus dibayar: " + hargaSepatu);
                 } else {
                     System.out.println("Ukuran sepatu tidak valid");
                 }
@@ -61,6 +64,7 @@ public class Latihan3 {
                 if(ukuran >= 41){
                     if (ukuran <= 44)
                     hargaSepatu = 1800000;
+                    System.out.println("Harga yang harus dibayar: " + hargaSepatu);
                 } else {
                     System.out.println("Ukuran sepatu tidak valid");
                 }
@@ -74,6 +78,7 @@ public class Latihan3 {
                 if(ukuran >= 36){
                     if (ukuran <= 40)
                     hargaSepatu = 750000;
+                    System.out.println("Harga yang harus dibayar: " + hargaSepatu);
                 } else {
                     System.out.println("Ukuran sepatu tidak valid");
                 }                  
@@ -82,6 +87,7 @@ public class Latihan3 {
                 if(ukuran >= 40){
                     if (ukuran <= 44)
                     hargaSepatu = 1500000;
+                    System.out.println("Harga yang harus dibayar: " + hargaSepatu);
                 } else {
                     System.out.println("Ukuran sepatu tidak valid");
                 }
@@ -93,8 +99,6 @@ public class Latihan3 {
         } else {
             System.out.println("Merk sepatu tidak valid");
         }  
-
-        System.out.println("Harga yang harus dibayar: " + hargaSepatu);
 
         input02.close(); 
   }
