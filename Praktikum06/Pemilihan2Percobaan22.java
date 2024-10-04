@@ -69,6 +69,14 @@ public class Pemilihan2Percobaan22 {
             System.out.println("Member tidak valid");
         }
 
+        System.out.print("Metode pembayaran (QRIS/Non QRIS) ? = ");
+        String pembayaran = input02.nextLine();
+        System.out.println("--------------------------------------");
+
+        if (pembayaran.equalsIgnoreCase("QRIS")) {
+            total_bayar -= 1000;
+            System.out.println("Mendapat Potongan harga Rp. 1.000");
+        }
         System.out.println("Total bayar setelah diskon dan potongan = " + total_bayar);
 
         input02.close();
