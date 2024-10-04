@@ -33,21 +33,13 @@ public class Latihan3 {
                     if (ukuran <= 40)
                     hargaSepatu = 800000;
                     System.out.println("Harga yang harus dibayar: " + hargaSepatu);
-                } else {
-                    System.out.println("Ukuran sepatu tidak valid");
-                }
-                    
+                }       
             } else if (kategori.equalsIgnoreCase("High Top")){
                 if(ukuran >= 40){
                     if (ukuran <= 44)
                     hargaSepatu = 1200000;
                     System.out.println("Harga yang harus dibayar: " + hargaSepatu);
-                } else {
-                    System.out.println("Ukuran sepatu tidak valid");
-                }
-    
-            } else {
-                System.out.println("Kategori sepatu tidak valid");
+                } 
             }       
                 
         } else if (pilihan_merk.equalsIgnoreCase("Sketcher")){
@@ -56,50 +48,30 @@ public class Latihan3 {
                     if (ukuran <= 41)
                     hargaSepatu = 1000000;
                     System.out.println("Harga yang harus dibayar: " + hargaSepatu);
-                } else {
-                    System.out.println("Ukuran sepatu tidak valid");
-                }
-                    
+                }  
             } else if (kategori.equalsIgnoreCase("Man")){
                 if(ukuran >= 41){
                     if (ukuran <= 44)
                     hargaSepatu = 1800000;
                     System.out.println("Harga yang harus dibayar: " + hargaSepatu);
-                } else {
-                    System.out.println("Ukuran sepatu tidak valid");
-                }
-                    
-            } else {
-                System.out.println("Kategori sepatu tidak valid");
-            }         
+                }  
+            }     
 
         } else if (pilihan_merk.equalsIgnoreCase("Nike")){
-            if (kategori.equalsIgnoreCase("Woman")){
+            if (kategori.equalsIgnoreCase("Kids")){
                 if(ukuran >= 36){
                     if (ukuran <= 40)
                     hargaSepatu = 750000;
                     System.out.println("Harga yang harus dibayar: " + hargaSepatu);
-                } else {
-                    System.out.println("Ukuran sepatu tidak valid");
-                }                  
-                    
-            } else if (kategori.equalsIgnoreCase("Man")){
+                }     
+            } else if (kategori.equalsIgnoreCase("Adult")){
                 if(ukuran >= 40){
                     if (ukuran <= 44)
                     hargaSepatu = 1500000;
                     System.out.println("Harga yang harus dibayar: " + hargaSepatu);
-                } else {
-                    System.out.println("Ukuran sepatu tidak valid");
-                }
-                    
-            } else {
-                System.out.println("Kategori sepatu tidak valid");
-            }
-                
-        } else {
-            System.out.println("Merk sepatu tidak valid");
-        }  
-
+                } 
+            }                 
+        } 
         input02.close(); 
   }
 }
