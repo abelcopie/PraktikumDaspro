@@ -1,22 +1,18 @@
+import java.util.Scanner;
+
 public class Latihan1 {
     public static void main(String[] args) {
-        int Bil1 = 28;
-        int Bil2 = 54;
-        int Bil3 = 15;
+        Scanner sc = new Scanner(System.in);
+        int matkul = 5;
+        double nilai, rata, total = 0;
 
-        if (Bil1 > Bil2) {
-            if (Bil1 > Bil3){
-                System.out.println("Bilangan Terbesar " + Bil1);
-            } else{
-                System.out.println("Bilangan Terbesar " + Bil2);
-            }
-                
-        } else {
-            if (Bil2 > Bil1){
-                System.out.println("Bilangan Terbesar " + Bil2);
-            } else {
-                System.out.println("Bilangan Terbesar " + Bil1);
-            }
-        }            
+        for (int i = 1; i <= matkul; i++){
+            System.out.println("Masukkan nilai mata kuliah ke-" + i + ": ");
+            nilai = sc.nextDouble();
+            total += nilai;
+        }
+        rata = total / matkul;
+        System.out.println("Rata-rata nilai: " + rata);
+        sc.close();
     }
 }
